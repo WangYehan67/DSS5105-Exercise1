@@ -20,7 +20,7 @@ checkerboard = generate_checkerboard()
 
 # 显示棋盘
 plt.figure(figsize=(6,6))
-plt.imshow(checkerboard, cmap="gray", interpolation="nearest")
+plt.imshow(checkerboard, cmap="plasma", interpolation="nearest")
 plt.axis("off")
 plt.title("A Checkerboard Pattern")
 plt.show()
